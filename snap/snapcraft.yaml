@@ -32,7 +32,7 @@
       
       stage-packages:
        - openjdk-8-jre
-       
+       - java
        
       source-type: git
       source: https://github.com/ShivamMistry/RSLoader.git
