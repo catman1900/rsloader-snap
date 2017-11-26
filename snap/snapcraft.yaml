@@ -13,7 +13,7 @@
 
   apps:
     rsloader:
-      command: java -jar rsloader.jar -o
+      command: rsloader
       plugs: 
         - network
         - network-bind
