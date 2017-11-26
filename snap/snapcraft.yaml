@@ -31,7 +31,6 @@
         [openjdk-8-jre]
       
       stage-packages:
-       - libgnome
        - openjdk-8-jre
       
       source-type: git
