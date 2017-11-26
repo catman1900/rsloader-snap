@@ -13,7 +13,8 @@
 
   apps:
     rsloader:
-      command: java -cp out/production/RSLoader com.speed.RSLoader
+      command: java -jar $SNAP/usr/bin/rsloader.jar
+
       plugs: 
         - network
         - network-bind
@@ -26,14 +27,14 @@
   parts:
     my-part:
       # See 'snapcraft plugins'
-      build-packages:
-        
-        [openjdk-8-jre]
-      
-      stage-packages:
-      - openjdk-8-jre
+      plugin: ant
        
       source-type: git
       source: https://github.com/ShivamMistry/RSLoader.git
-      plugin: ant
+      stage-packages:
+        - openjdk-8-jre
       
+      install: |
+        mkdir -p  ../../../prime/usr/bin
+        cp -r dist/* ../../../prime/usr/bin
+           
