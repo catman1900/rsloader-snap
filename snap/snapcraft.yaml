@@ -28,7 +28,7 @@
       # See 'snapcraft plugins'
       build-packages:
         
-        [openjdk-8-jre, libgnome]
+        [openjdk-8-jre]
       
       stage-packages:
        - libgnome
