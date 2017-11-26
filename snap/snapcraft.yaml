@@ -13,7 +13,7 @@
 
   apps:
     rsloader:
-      command: java -jar $SNAP/usr/bin/rsloader.jar
+      command: java -jar $SNAP/usr/bin/rsloader.jar -o
 
       plugs: 
         - network
