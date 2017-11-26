@@ -1,1 +1,8 @@
-
+[Desktop Entry]
+Name=RSLoader
+GenericName=rsloader
+Comment=Lightweight osrs client
+Exec=java -jar rsloader.jar -o
+Terminal=false
+Type=Application
+Categories=Game;
