@@ -31,6 +31,6 @@
       stage-packages:
         - openjdk-8-jre 
      install: |
-      mkdir -p  ../../../prime/usr/bin
-      cp -r out/* ../../../prime/usr/bin
+        mkdir -p  ../../../prime/usr/bin
+        cp -r out/* ../../../prime/usr/bin
     
