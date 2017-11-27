@@ -11,7 +11,7 @@
 
   apps:
     rsloader:
-      command: java -jar $SNAP/usr/bin/rsloader.jar -o
+      command: java -jar $SNAP/usr/bin/rsloader.jar 
       plugs: 
         - network
         - network-bind
