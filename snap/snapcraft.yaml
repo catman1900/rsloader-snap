@@ -25,12 +25,9 @@
     my-part:
       # See 'snapcraft plugins'
       build-packages:
-        
-        [openjdk-8-jre]
-      
+       - openjdk-8-jre
       stage-packages:
        - openjdk-8-jre
-       
       source-type: git
       source: https://github.com/ShivamMistry/RSLoader.git
       plugin: ant
