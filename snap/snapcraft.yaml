@@ -28,6 +28,7 @@
       plugin: ant
       build-packages:
         - openjdk-8-jre
+      
       source-type: git
       source: https://github.com/ShivamMistry/RSLoader.git
       stage-packages:
