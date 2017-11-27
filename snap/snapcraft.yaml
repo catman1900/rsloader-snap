@@ -29,8 +29,7 @@
       source-type: git
       source: https://github.com/ShivamMistry/RSLoader.git
       stage-packages:
-        - openjdk-8-jre
-        
+        - openjdk-8-jre 
      install: |
       mkdir -p  ../../../prime/usr/bin
       cp -r out/* ../../../prime/usr/bin
