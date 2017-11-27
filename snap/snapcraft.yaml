@@ -28,9 +28,14 @@
     my-part:
       # See 'snapcraft plugins'
       plugin: ant
-       
+      build-packages:
+        - openjdk-8-jre
       source-type: git
       source: https://github.com/ShivamMistry/RSLoader.git
       stage-packages:
         - openjdk-8-jre
+        
+     install: |
+      mkdir -p  ../../../prime/usr/bin
+      cp -r out/* ../../../prime/usr/bin
     
