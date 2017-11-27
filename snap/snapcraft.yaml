@@ -31,3 +31,6 @@
       source-type: git
       source: https://github.com/ShivamMistry/RSLoader.git
       plugin: ant
+      install: |
+        mkdir -p  ../../../prime/usr/bin
+        cp -r out/* ../../../prime/usr/bin
